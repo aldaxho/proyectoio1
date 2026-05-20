@@ -46,7 +46,7 @@ export interface OptimizationResponse {
   providedIn: 'root'
 })
 export class OptimizationService {
-  private baseUrl = 'http://localhost:3000/api/optimization';
+  private baseUrl = '/api/optimization';
 
   constructor(private http: HttpClient) {}
 
